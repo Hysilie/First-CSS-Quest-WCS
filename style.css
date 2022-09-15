@@ -1,0 +1,102 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h2 {
+  color: #424242;
+}
+
+/* TOP Section */
+nav ul {
+  display: inline-flex;
+
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+
+  background-color: #424242;
+  color: #eee;
+  list-style-type: none;
+}
+
+li {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+}
+
+li:first-child {
+  font-size: 1rem;
+}
+
+li:nth-child(2) {
+  background-color: #e0e0e0;
+  color: #424242;
+}
+
+.carousel {
+  height: 10rem;
+
+  background-color: #e0e0e0;
+}
+
+/* WANTED Section */
+section h2 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin: 0.1rem;
+  font-size: 0.9rem;
+}
+
+section:last-of-type {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10vmin;
+}
+
+article {
+  background-color: #e0e0e0;
+  margin: 1vmin;
+  height: 15rem;
+  width: 100vw;
+}
+
+/* Contact Section */
+
+hr {
+  border-top: 1.5px solid #424242;
+  margin: 1vmin;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form h2 {
+  width: 100vw;
+}
+
+input,
+textarea {
+  margin: 1vmin;
+  width: 80vw;
+}
+
+input:nth-child(4) {
+  border: 1px solid #e0e0e0;
+}
+
+textarea,
+textarea::placeholder {
+  height: 5rem;
+  color: #e0e0e0;
+}
